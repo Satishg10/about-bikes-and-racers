@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Introduction to Super Bikes</title>
+  </head>
+  <body>
+    <h1>Super Bikes and Racers</h1>
+    <img src="images/ninja1.jpg" width="325" height="250" alt="bike image" />
+    <img src="images/yamaha.jpg" width="325" height="250" alt="bike image" />
+    <img src="images/ninja2.jpg" width="325" height="250" alt="bike image" />
+    <img src="images/ktmrc200.jpg" width="346" height="250" alt="bike image" />
+    <h2>Video of Super Bikes</h2>
+    <iframe
+      width="500"
+      height="250"
+      src="https://www.youtube.com/embed/UDmeEaZtIro"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; 
+         encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <h2>Some Top Super Bikes</h2>
+    <ul>
+      <li>BMW S1000RR</li>
+      <li>KAWASAKI ZX 10RR</li>
+      <li>TRIUMPH STREET RALLY</li>
+    </ul>
+    <div id="Racers" style="background-color: yellow">
+      <h2>
+        Some of <span style="color: blue">The Top Racers</span> of The World
+      </h2>
+      <ol>
+        <li>Giacomo Agostini</li>
+        <li>Ángel Nieto</li>
+        <li>Valentino Rossi</li>
+      </ol>
+    </div>
+    <p>
+      Superbike racing is a category of motorcycle racing that employs highly
+      modified production motorcycles. The Superbike World Championship is the
+      official world championship series they are held in many countries,
+      including the United Kingdom, the United States, Japan, Australia and
+      Canada.
+    </p>
+    <p>
+      <a href="https://www.pexels.com/search/superbikes" target="blank"
+        >check out more superbikes images</a
+      >
+    </p>
+    <h3>Pros and Cons of Superbikes</h3>
+    <table>
+      <tr>
+        <th>Pros</th>
+        <th>Cons</th>
+      </tr>
+      <tr>
+        <td>Good to ride</td>
+        <td>Expensive</td>
+      </tr>
+      <tr>
+        <td>Fun Ride</td>
+        <td>Maintenance is Difficult</td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <h3>Contact us</h3>
+    <br />
+    <form action="#" method="post">
+      <fieldset>
+        FIRSTNAME:
+        <input
+          type="text"
+          name="first name"
+          placeholder="type here..."
+        />&nbsp;&nbsp; LASTNAME:
+        <input
+          type="text"
+          name="last name"
+          placeholder="type here..."
+        /><br /><br />
+        <input type="radio" name="gender" value="male" checked />Male
+        <input type="radio" name="gender" value="female" />Female<br /><br />
+        <textarea
+          rows="5"
+          cols="55"
+          placeholder="please give your feedback.."
+        ></textarea
+        ><br /><br />
+        <select>
+          <option>Choose your favourite brand...</option>
+          <option>BMW</option>
+          <option>KAWASAKI</option>
+          <option>SUZUKI</option>
+          <option>YAMAHA</option>
+        </select>
+        <br />
+        <h3>Choose your location</h3>
+        <input type="checkbox" />India <input type="checkbox" />America
+        <input type="checkbox" />Other <br /><br />
+        <input type="Submit" />
+      </fieldset>
+    </form>
+    <form action="/submit_data.php">
+      <label>Enter your name: </label>
+      <input type="text" name="name" />
+      <label>Enter Mobile number </label>
+      <input type="number" name="mobile_no" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>&copy;Satish V Gokhale 2021 &reg;</p>
+
+    <!-- using javascript internally in html file 
+    <script>
+      /* document.querySelector(): it is a method in Javascript.
+      querySelector() The Document method querySelector() returns the first Element within the document
+      that matches the specified selector, or group of selectors. If no matches are found, null is returned.
+
+      let myHeading = document.querySelector("h1");
+      myHeading.textContent = "Welcome! to the world of Super Bikes";
+    </script>-->
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
